@@ -179,7 +179,7 @@ export default function Home() {
           </h1>
           <p className="landing-description text-[#FAFAFA]">
             Blockchain & AI Application. Features recommendations, chats, swaps,
-            trades, wallets and deals. AI Transmitter accesses on-chain data.
+            trades, wallets and deals. AI Transmitter accesses chains&apos; data.
           </p>
           <div className="landing-button-row flex items-center">
             <a

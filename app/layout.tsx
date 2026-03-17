@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   metadataBase: siteUrl ? new URL(siteUrl) : undefined,
   title: "Hyperlinks Space Landing",
   description:
-    "Blockchain & AI Application. Features recommendations, chat, swap, trading, wallet and deals. AI Transmitter accesses on-chain data.",
+    "Blockchain & AI Application. Features recommendations, chat, swap, trading, wallet and deals. AI Transmitter accesses chains' data.",
   openGraph: {
     title: "Hyperlinks Space Landing",
     description:
-      "Blockchain & AI Application. Features recommendations, chat, swap, trading, wallet and deals. AI Transmitter accesses on-chain data.",
+      "Blockchain & AI Application. Features recommendations, chat, swap, trading, wallet and deals. AI Transmitter accesses chains' data.",
     images: ["/82.png"],
   },
   twitter: {
