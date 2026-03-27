@@ -178,7 +178,7 @@ export default function Home() {
             Hyperlinks Space Program
           </h1>
           <p className="landing-description text-[#FAFAFA]">
-            AI & Crypto multiplatform solution for managing your assets, investing and earning. Features recommendations, chats, swaps, trades, wallets and deals. AI Transmitter accesses chains&apos; data.
+            AI & Blockchain multiplatform solution for managing your assets, investing and earning. Features recommendations, chats, swaps, trades, wallets and deals. AI Transmitter accesses chains&apos; data.
           </p>
           <div className="landing-button-row flex items-center">
             <a
@@ -187,7 +187,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="primary-button inline-flex items-center bg-[#1AAA11] font-medium text-[#FAFAFA] transition-opacity hover:opacity-90"
             >
-              Launch App
+              Launch Program
               <Image
                 src="/Telegram.svg"
                 alt=""
