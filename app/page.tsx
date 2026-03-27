@@ -201,7 +201,7 @@ export default function Home() {
           <p className="landing-clients text-[#FAFAFA]">
             Clients:{" "}
             <Link
-              href="https://app.hyperlinks.space/"
+              href="https://program.hyperlinks.space/"
               className="underline text-[#FAFAFA]"
               target="_blank"
               rel="noopener noreferrer"
