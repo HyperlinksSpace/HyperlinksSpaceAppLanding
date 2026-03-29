@@ -21,7 +21,7 @@ export default function Home() {
               gap: ${s.header.gap}px;
             }
             .landing-logo { height: 20px; width: auto; }
-            .landing-contact { font-size: 10px; }
+            .landing-contact { font-size: 12.5px; }
             .landing-content {
               padding-left: ${s.content.paddingXMobile}px;
               padding-right: ${s.content.paddingXMobile}px;
