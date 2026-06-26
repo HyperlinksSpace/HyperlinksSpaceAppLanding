@@ -1,1 +1,2 @@
+Theme in header or language switch or smth, think about it.
 Add different a font styles: Grotesk, Antiqua, Modern

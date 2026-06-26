@@ -200,14 +200,14 @@ export default function Home() {
           </div>
           <p className="landing-clients text-[#FFFFFF]">
             Clients:{" "}
-            <Link
+            <a
               href="https://program.hyperlinks.space/"
               className="underline underline-offset-3 text-[#FFFFFF]"
               target="_blank"
               rel="noopener noreferrer"
             >
               Browser
-            </Link>
+            </a>
             <span className="text-[#FFFFFF]">,</span>
             <span className="text-[#818181]">
               {" "}Iphone, Android, Windows, Mac
