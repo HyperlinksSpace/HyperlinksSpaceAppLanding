@@ -210,8 +210,15 @@ export default function Home() {
             </a>
             <span className="text-[#FFFFFF]">,</span>
             <span className="text-[#818181]">
-              {" "}Iphone, Android, Windows, Mac
+              {" "}Iphone, Android,{" "}
             </span>
+            <a
+              href="/api/download/windows"
+              className="underline underline-offset-3 text-[#FFFFFF]"
+            >
+              Windows
+            </a>
+            <span className="text-[#818181]">, Mac</span>
           </p>
         </div>
         <div
