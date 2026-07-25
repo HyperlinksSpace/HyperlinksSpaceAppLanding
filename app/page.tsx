@@ -163,12 +163,12 @@ export default function Home() {
           />
         </Link>
         <Link
-          href="https://t.me/wwwHyperlinksSpace"
+          href="https://www.hyperlinks.space/"
           className="landing-contact underline underline-offset-2 text-[#FFFFFF] transition-colors hover:text-[#FFFFFF]"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Contact us
+          Home
         </Link>
       </header>
 
