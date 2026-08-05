@@ -42,7 +42,7 @@ export const spacing = {
     paddingXDesktop: 60,
     paddingXMobile: 20,
     /** Top padding (gap below fixed header) */
-    paddingTopDesktop: 0,
+    paddingTopDesktop: 48,
     paddingTopMobile: 40,
     /** Bottom padding of the content block */
     paddingBottomDesktop: 0,

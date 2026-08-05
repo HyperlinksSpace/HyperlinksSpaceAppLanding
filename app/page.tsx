@@ -58,13 +58,13 @@ export default function Home() {
                 padding-top: ${s.header.paddingYDesktop}px;
                 padding-bottom: ${s.header.paddingYDesktop}px;
               }
-              .landing-logo { height: 30px; }
+              .landing-logo { height: 31px; }
               .landing-contact { font-size: 15px; }
               .landing-content {
                 padding-left: ${s.content.paddingXDesktop}px;
                 padding-right: ${s.content.paddingXDesktop}px;
                 padding-top: ${s.content.paddingTopDesktop}px;
-                padding-bottom: ${s.content.paddingBottomDesktop}px;
+                padding-bottom: ${s.content.paddingTopDesktop}px;
               }
               .landing-description {
                 margin-top: ${s.content.gapTitleDescriptionDesktop}px;
@@ -94,6 +94,14 @@ export default function Home() {
               .landing-content-col {
                 width: ${s.content.desktopContentWidthPercent}%;
                 max-width: ${s.content.desktopContentWidthPercent}%;
+                /* Prefer centered text, but fall back to top when content is tall
+                   so the title never collides with the fixed header (~1000px widths). */
+                justify-content: safe center;
+              }
+              .landing-content {
+                /* Extra breathing room under the fixed header in split layout. */
+                padding-top: ${Math.max(s.content.paddingTopMobile, 48)}px;
+                padding-bottom: ${Math.max(s.content.paddingTopMobile, 48)}px;
               }
               .landing-visual-col {
                 width: ${100 - s.content.desktopContentWidthPercent}%;
@@ -152,13 +160,13 @@ export default function Home() {
         }}
       />
       <header className="landing-header fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-[#818181] bg-[#000000]">
-        <Link href="/" className="flex shrink-0">
+        <Link href="/" className="flex shrink-0 items-center self-center">
           <Image
-            src="/HyperlinksSpace.svg"
+            src="/HyperlinksSpaceLogo.svg"
             alt="Hyperlinks Space"
-            width={112}
-            height={30}
-            className="landing-logo w-auto"
+            width={94}
+            height={31}
+            className="landing-logo block w-auto"
             priority
           />
         </Link>
@@ -173,7 +181,7 @@ export default function Home() {
       </header>
 
       <main className="landing-main relative z-10 w-full">
-        <div className="landing-content landing-content-col flex w-full shrink-0 flex-col md:min-h-0 md:flex-1 md:justify-center">
+        <div className="landing-content landing-content-col flex w-full shrink-0 flex-col md:min-h-0 md:flex-1">
           <h1 className="landing-title font-medium text-[#FFFFFF]">
             Hyperlinks Space Program
           </h1>
